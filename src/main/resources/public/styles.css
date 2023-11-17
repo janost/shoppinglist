@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: #1DB954;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1DB954;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1DB954;
+    color: #121212;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #1C1C1C;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+}
+
+.grocery-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px; /* Add some space between items */
+}
+
+.delete-btn {
+    margin-left: 10px; /* Add some space between the text and the button */
+}
