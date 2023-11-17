@@ -22,10 +22,6 @@ dependencies {
     implementation 'com.zaxxer:HikariCP:5.1.0'
 }
 
-application {
-    mainClass = "com.devertix.shoppinglist.App"
-}
-
 test {
     useJUnitPlatform()
 }
