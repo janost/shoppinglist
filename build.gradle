@@ -1,11 +1,12 @@
 plugins {
     id 'java'
-    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
     id 'application'
 }
 
-group = 'org.example'
+group = 'com.devertix'
 version = '1.0-SNAPSHOT'
+mainClassName = 'com.devertix.shoppinglist.App'
 
 repositories {
     mavenCentral()
